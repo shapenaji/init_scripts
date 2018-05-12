@@ -11,7 +11,6 @@ cd ~/.vim/bundle && \
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree 
 # Lightline
 git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
-
-cat .vimrc >> ~/.vimrc
-
+# Asyncrun
+git clone https://github.com/skywind3000/asyncrun.vim ~/.vim/bundle/asyncrun.vim
 
