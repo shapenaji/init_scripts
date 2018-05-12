@@ -1,6 +1,6 @@
 call pathogen#infect()
 call pathogen#helptags() ""
-let g:solarized_termcolors=256
+" let g:solarized_termcolors=256
 
 " Open NERDTree on start
 autocmd vimenter * NERDTree
