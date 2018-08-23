@@ -14,7 +14,6 @@ map <leader>n :NERDTreeToggle<CR>
 syntax enable
 set number
 set background=dark
-colorscheme solarized
 filetype plugin indent on
 
 set laststatus=2
