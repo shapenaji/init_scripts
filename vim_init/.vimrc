@@ -14,7 +14,6 @@ map <leader>n :NERDTreeToggle<CR>
 syntax enable
 set number
 set background=dark
-colorscheme solarized
 filetype plugin indent on
 
 set laststatus=2
@@ -24,3 +23,5 @@ set laststatus=2
 let g:NERDTreeDirArrowExpandable = '>'
 let g:NERDTreeDirArrowCollapsible = 'v'
 
+" Set yaml spacing
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
